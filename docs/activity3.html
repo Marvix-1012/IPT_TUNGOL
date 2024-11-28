@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+h3 {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+label {
+    width: 30%;
+}
+
+input[type="text"], input[type="date"], input[type="tel"], input[type="email"] {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+input[disabled] {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid;
+}
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Bio-Data</h1>
+        <div class="image-box">
+            <image src="image/*"><br><br>
+        </div>
+        <form>
+            <div class="section">
+                <h3>Personal Data</h3>
+                <div class="personal-data">
+                    <div class="row">
+                        <label>Position Desired:</label> <input type="text" name="position">
+                        <label>Date:</label> <input type="date" name="date">
+                    </div>
+                    <div class="row">
+                        <label>Name:</label> <input type="text" name="name">
+                        <label>Gender:</label> <input type="text" name="gender">
+                    </div>
+                    <div class="row">
+                        <label>City Address:</label> <input type="text" name="city-address">
+                        <label>Provincial Address:</label> <input type="text" name="provincial-address">
+                    </div>
+                    <div class="row">
+                        <label>Telephone:</label> <input type="tel" name="telephone">
+                        <label>Cellphone:</label> <input type="tel" name="cellphone">
+                    </div>
+                    <div class="row">
+                        <label>Email Address:</label> <input type="email" name="email">
+                    </div>
+                    <div class="row">
+                        <label>Date of Birth:</label> <input type="date" name="dob">
+                        <label>Birth Place:</label> <input type="text" name="birth-place">
+                    </div>
+                    <div class="row">
+                        <label>Civil Status:</label> <input type="text" name="civil-status">
+                        <label>Citizenship:</label> <input type="text" name="citizenship">
+                    </div>
+                    <div class="row">
+                        <label>Height:</label> <input type="text" name="height">
+                        <label>Weight:</label> <input type="text" name="weight">
+                    </div>
+                    <div class="row">
+                        <label>Religion:</label> <input type="text" name="religion">
+                    </div>
+                    <div class="row">
+                        <label>Spouse:</label> <input type="text" name="spouse">
+                        <label>Occupation:</label> <input type="text" name="spouse-occupation">
+                    </div>
+                    <div class="row">
+                        <label>Name of Children:</label> <input type="text" name="children">
+                        <label>Date of Birth:</label> <input type="date" name="children-dob">
+                    </div>
+                    <div class="row">
+                        <label>Father's Name:</label> <input type="text" name="father-name">
+                        <label>Occupation:</label> <input type="text" name="father-occupation">
+                    </div>
+                    <div class="row">
+                        <label>Mother's Name:</label> <input type="text" name="mother-name">
+                        <label>Occupation:</label> <input type="text" name="mother-occupation">
+                    </div>
+                    <div class="row">
+                        <label>Language/Dialect:</label> <input type="text" name="language">
+                    </div>
+                    <div class="row">
+                        <label>Emergency Contact:</label> <input type="text" name="emergency-contact">
+                        <label>Phone:</label> <input type="tel" name="emergency-phone">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Educational Background</h3>
+                <div class="education">
+                    <div class="row">
+                        <label>Elementary:</label> <input type="text" name="elementary">
+                        <label>Year Graduated:</label> <input type="text" name="elem-year">
+                    </div>
+                    <div class="row">
+                        <label>High School:</label> <input type="text" name="high-school">
+                        <label>Year Graduated:</label> <input type="text" name="hs-year">
+                    </div>
+                    <div class="row">
+                        <label>College:</label> <input type="text" name="college">
+                        <label>Year Graduated:</label> <input type="text" name="college-year">
+                    </div>
+                    <div class="row">
+                        <label>Degree Received:</label> <input type="text" name="degree">
+                    </div>
+                    <div class="row">
+                        <label>Special Skills:</label> <input type="text" name="skills">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Employment Record</h3>
+                <div class="employment">
+                    <div class="row">
+                        <label>Company Name:</label> <input type="text" name="company1">
+                        <label>Position:</label> <input type="text" name="position1">
+                        <label>From:</label> <input type="date" name="from1">
+                        <label>To:</label> <input type="date" name="to1">
+                    </div>
+                    <div class="row">
+                        <label>Company Name:</label> <input type="text" name="company2">
+                        <label>Position:</label> <input type="text" name="position2">
+                        <label>From:</label> <input type="date" name="from2">
+                        <label>To:</label> <input type="date" name="to2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Character Reference</h3>
+                <div class="reference">
+                    <div class="row">
+                        <label>Name:</label> <input type="text" name="ref-name1">
+                        <label>Position:</label> <input type="text" name="ref-position1">
+                        <label>Company:</label> <input type="text" name="ref-company1">
+                        <label>Contact No.:</label> <input type="tel" name="ref-contact1">
+                    </div>
+                    <div class="row">
+                        <label>Name:</label> <input type="text" name="ref-name2">
+                        <label>Position:</label> <input type="text" name="ref-position2">
+                        <label>Company:</label> <input type="text" name="ref-company2">
+                        <label>Contact No.:</label> <input type="tel" name="ref-contact2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="row">
+                    <label>Res. Cert. No.:</label> <input type="text" name="res-cert-no">
+                    <label>Issued at:</label> <input type="text" name="issued-at">
+                </div>
+                <div class="row">
+                    <label>SSS:</label> <input type="text" name="sss">
+                    <label>TIN:</label> <input type="text" name="tin">
+                </div>
+                <div class="row">
+                    <label>NBI No.:</label> <input type="text" name="nbi">
+                    <label>Passport No.:</label> <input type="text" name="passport">
+                </div>
+            </div>
+
+            <div class="signature">
+                <label>Applicant's Signature:</label>
+                <input type="text" name="signature" disabled>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
